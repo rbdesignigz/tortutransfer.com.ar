@@ -218,7 +218,7 @@
 
 
 	.description {
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     padding: 10px;
     box-sizing: border-box;
     border-top: 2px solid #ddd;
@@ -1616,9 +1616,7 @@ asi ya asegurando que el diseño sea responsive en diferentes tamaños de pantal
 
 	}
 
-	body {
-		background: #fff;
-	}
+
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
@@ -1678,8 +1676,8 @@ asi ya asegurando que el diseño sea responsive en diferentes tamaños de pantal
 		}
 
 	body {
-		background-color: #fff;
-		color: #444;
+		background-color: #000000;
+		color: #ffffff;
 	}
 
 	body, input, select, textarea {
@@ -1858,7 +1856,9 @@ asi ya asegurando que el diseño sea responsive en diferentes tamaños de pantal
 
 	.box {
 		/* margin-bottom: 2rem; */
-		background: #FFF;
+		background: #000000;
+		color: white;
+		
 	}
 
 		.box .image.fit {
@@ -1898,6 +1898,7 @@ asi ya asegurando que el diseño sea responsive en diferentes tamaños de pantal
 
 		.box .content {
 			padding: 3rem;
+			color:white;
 		}
 
 		.box > :last-child,
@@ -2370,11 +2371,17 @@ asi ya asegurando que el diseño sea responsive en diferentes tamaños de pantal
 	header p {
 		position: relative;
 		margin: 0 0 1.5rem 0;
+		color: white;
+	}
+
+	header h2 {
+		color: white;
 	}
 
 	header h2 + p {
 		font-size: 1.25rem;
 		margin-top: -1rem;
+		color: white;
 	}
 
 	header h3 + p {
@@ -2387,10 +2394,11 @@ asi ya asegurando que el diseño sea responsive en diferentes tamaños de pantal
 	header h6 + p {
 		font-size: 0.9rem;
 		margin-top: -0.6rem;
+		color: white;
 	}
 
 	header p {
-		color: #bbb;
+		color: #ffffff;
 	}
 
 /* Tablas */
@@ -4104,7 +4112,7 @@ asi ya asegurando que el diseño sea responsive en diferentes tamaños de pantal
 	}
 
 		#footer a {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(92, 91, 91, 0.5);
 		}
 
 			#footer a:hover {
